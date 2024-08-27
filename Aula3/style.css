@@ -1,0 +1,33 @@
+body{
+    font-family: "Arial";
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+img{
+    max-width: 100%;
+}
+
+span{
+    background-color: rgb(224, 223, 223);
+    padding: 5px;
+    border-radius: 4px;  
+    margin: 0px;   
+}
+
+p{
+    margin: 20px auto;
+}
+
+a{
+    background-color: #9583bc;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}

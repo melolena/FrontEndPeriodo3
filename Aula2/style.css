@@ -10,14 +10,13 @@ div{
     background-color: #111;
     color: #b2b2b2;
     border-radius: 4px;
-    height: 180px;
     padding: 10px;
-    margin: 30px;
+    margin: 30px auto;
 }
 
 h2{
     color: white;
-    margin-bottom: 5px;
+    margin: 0;
 }
 
 span{
@@ -27,6 +26,7 @@ span{
 }
 
 a{
+    display: inline-block;
     text-decoration: none;
     background-color: #febe01;
     color: #332200;
