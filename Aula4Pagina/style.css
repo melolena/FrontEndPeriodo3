@@ -43,26 +43,40 @@ nav ul li a{
     color: black;
     flex-basis: 60px;
     background-color: white;
+    padding: 10px 16px;
+    border-radius: 5px;
     
 }    
+
 
 .corpo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    gap: 50px;
+
     max-width: 1000px;
 }
 
 .apresentacao{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    position: relative;
+
 }
 
+.apresentacao span{
+    background-color: #ee2211;
+    position: absolute;
+    top: 11%;
+    left: 39%;
+    width: 70px;
+    height: 4px;
+}   
+
+
 img{
-    max-width: 100%;
+    max-width: 70%;
     border-radius: 10px;
 }
 
@@ -72,10 +86,14 @@ img{
     flex-direction: column;
     text-align: end;
     align-self: center;
-    gap: 15px;
     background-color: white;
-    padding: auto;
+    padding: 65px;
+    gap: 16px 0;
  
+}
+
+.textoApresentacao h2{
+    font-size:25px;
 }
 
 .textoApresentacao a{
@@ -92,7 +110,7 @@ img{
     justify-items: baseline;
     align-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 }
 
 .conteudo h2{
@@ -109,7 +127,8 @@ img{
     justify-items: center;
     gap: 10px;  
     background-color: white;
-    padding: auto;
+    padding: 50px;
+
 }
 
 
@@ -119,6 +138,10 @@ img{
     grid-template-columns: auto 1fr;
     gap: 30px;
     text-align: start;
+}
+
+.vantagens img{
+    max-width: 200%;
 }
 
 .textoVantagens{
@@ -132,6 +155,7 @@ img{
     margin-top:50px;
     padding: 10px;
 }
+
 
 
 
