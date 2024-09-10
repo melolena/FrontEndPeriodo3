@@ -54,7 +54,6 @@ nav ul li a{
     flex-direction: column;
     justify-content: center;
     align-content: center;
-
     max-width: 1000px;
 }
 
@@ -68,15 +67,15 @@ nav ul li a{
 .apresentacao span{
     background-color: #ee2211;
     position: absolute;
-    top: 11%;
-    left: 39%;
-    width: 70px;
+    top: 20px;
+    right: 540px;
+    width: 60px;
     height: 4px;
 }   
 
 
 img{
-    max-width: 70%;
+    max-width: 800px;
     border-radius: 10px;
 }
 
@@ -88,7 +87,7 @@ img{
     align-self: center;
     background-color: white;
     padding: 65px;
-    gap: 16px 0;
+    gap: 16px;
  
 }
 
