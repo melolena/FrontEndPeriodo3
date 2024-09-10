@@ -58,9 +58,9 @@ nav ul li a{
 }
 
 .apresentacao{
-    display: flex;
-    flex-direction: row;
+    display: grid;
     position: relative;
+    grid-template-columns: 1fr 1fr;
 
 }
 
@@ -68,14 +68,15 @@ nav ul li a{
     background-color: #ee2211;
     position: absolute;
     top: 20px;
-    right: 540px;
+    right: 470px;
     width: 60px;
     height: 4px;
 }   
 
 
-img{
-    max-width: 800px;
+.apresentacao img{
+    max-width: 100%; 
+    height: auto;
     border-radius: 10px;
 }
 
@@ -86,7 +87,7 @@ img{
     text-align: end;
     align-self: center;
     background-color: white;
-    padding: 65px;
+    padding: 62px;
     gap: 16px;
  
 }
@@ -105,7 +106,8 @@ img{
 }
 
 .conteudo{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-items: baseline;
     align-content: center;
     align-items: center;
@@ -116,7 +118,7 @@ img{
     font-size: 64px;
     color: #c6c6c6;
     text-align: end;
-    flex-basis: 200px;
+    padding: 20px;
 }
 
 .painelVantagens{
