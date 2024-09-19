@@ -65,7 +65,8 @@ aside p{
     display: flex;
     align-self: stretch;
     background-color:   rgb(216, 216, 255);
-    height: 200px;
+    height: 156px;
+
 
 }
 
@@ -80,13 +81,13 @@ aside p{
     flex-grow: 2;
     padding: 20px;
     background-color: pink; 
-    width: 50%;
+
 }
 
 #textoArticle{
     flex-grow: 1;
     background-color: rgb(150, 194, 150);
-    width: 50%;
+
 }
 
 #articleFoto img{
