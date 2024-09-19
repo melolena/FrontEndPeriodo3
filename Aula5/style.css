@@ -93,3 +93,11 @@ aside p{
 #articleFoto img{
     max-width: 64%;
 }
+
+article{
+    padding: 20px;
+}
+
+footer{
+    background-color: rgb(228, 240, 255);
+}
