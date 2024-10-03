@@ -7,7 +7,7 @@
     <title>Exercício 2</title>
 </head>
 <body>
-    <h1>Carros e Bicicletas</h1>
+    <h1 id="titulo"><p>Carros e Bicicletas</p></h1>
     <div>
         <h2>Carro: <span>R$ 1999</span></h2>
         <p>Carro modelo <span>2045, </span> com <span>200km </span> rodados.</p>
@@ -21,4 +21,27 @@
 
     
 </body>
+
+<script>
+    const texto = document.querySelector('#titulo');
+    console.log(texto);
+    console.dir(texto);
+
+     //puxar informação 
+    console.log(texto.innerHTML);
+    console.log(texto.innerText);
+    console.log(texto.clientHeight);
+    console.log(texto.clientWidth);
+
+   
+
+    //definir informação 
+
+    texto.style.backgroundColor ='#febe01';
+    texto.style.padding = '1rem';
+    texto.style.height = document.body.clientHeight /2 + 'px';
+    texto.classList.add('ativo');
+    texto.setAttribute('arial-label','Cursos');
+    //arial-label é um atributo utilizado em apps para pessoas com deficiência visual 
+</script>
 </html>
